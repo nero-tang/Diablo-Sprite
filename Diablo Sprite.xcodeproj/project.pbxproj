@@ -7,13 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		449043FC967A7D04F65C89F8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16456BF5439D401854A7613A /* libPods.a */; };
 		8CB876FE1AF7FC8B00544D1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB876FD1AF7FC8B00544D1A /* main.m */; };
 		8CB877011AF7FC8B00544D1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB877001AF7FC8B00544D1A /* AppDelegate.m */; };
-		8CB877041AF7FC8B00544D1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB877031AF7FC8B00544D1A /* ViewController.m */; };
 		8CB877071AF7FC8B00544D1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB877051AF7FC8B00544D1A /* Main.storyboard */; };
-		8CB877091AF7FC8B00544D1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB877081AF7FC8B00544D1A /* Images.xcassets */; };
 		8CB8770C1AF7FC8B00544D1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CB8770A1AF7FC8B00544D1A /* LaunchScreen.xib */; };
 		8CB877181AF7FC8B00544D1A /* Diablo_SpriteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB877171AF7FC8B00544D1A /* Diablo_SpriteTests.m */; };
+		8CB877221AF7FDA900544D1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB877211AF7FDA900544D1A /* Images.xcassets */; };
+		8CB8774E1AF7FF1F00544D1A /* DBCareerProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB877251AF7FF1F00544D1A /* DBCareerProfileViewController.m */; };
+		8CB8774F1AF7FF1F00544D1A /* DBHeroItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB877271AF7FF1F00544D1A /* DBHeroItemViewController.m */; };
+		8CB877501AF7FF1F00544D1A /* DBHeroSkillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB877291AF7FF1F00544D1A /* DBHeroSkillViewController.m */; };
+		8CB877511AF7FF1F00544D1A /* DBHeroStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB8772B1AF7FF1F00544D1A /* DBHeroStatsViewController.m */; };
+		8CB877521AF7FF1F00544D1A /* DBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB8772D1AF7FF1F00544D1A /* DBLoginViewController.m */; };
+		8CB877531AF7FF1F00544D1A /* DBTooltipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB8772F1AF7FF1F00544D1A /* DBTooltipViewController.m */; };
+		8CB877541AF7FF1F00544D1A /* AD3Artisan.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB877321AF7FF1F00544D1A /* AD3Artisan.m */; };
+		8CB877551AF7FF1F00544D1A /* AD3Career.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB877341AF7FF1F00544D1A /* AD3Career.m */; };
+		8CB877561AF7FF1F00544D1A /* AD3Defines.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB877361AF7FF1F00544D1A /* AD3Defines.m */; };
+		8CB877571AF7FF1F00544D1A /* AD3Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB877381AF7FF1F00544D1A /* AD3Hero.m */; };
+		8CB877581AF7FF1F00544D1A /* AD3Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB8773A1AF7FF1F00544D1A /* AD3Item.m */; };
+		8CB877591AF7FF1F00544D1A /* AD3Kills.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB8773C1AF7FF1F00544D1A /* AD3Kills.m */; };
+		8CB8775A1AF7FF1F00544D1A /* AD3Progression.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB8773F1AF7FF1F00544D1A /* AD3Progression.m */; };
+		8CB8775B1AF7FF1F00544D1A /* AD3Rune.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB877411AF7FF1F00544D1A /* AD3Rune.m */; };
+		8CB8775C1AF7FF1F00544D1A /* AD3Skill.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB877431AF7FF1F00544D1A /* AD3Skill.m */; };
+		8CB8775D1AF7FF1F00544D1A /* AD3Stats.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB877451AF7FF1F00544D1A /* AD3Stats.m */; };
+		8CB8775E1AF7FF1F00544D1A /* AD3TimePlayed.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB877471AF7FF1F00544D1A /* AD3TimePlayed.m */; };
+		8CB8775F1AF7FF1F00544D1A /* Exocet Blizzard OT Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CB877491AF7FF1F00544D1A /* Exocet Blizzard OT Light.ttf */; };
+		8CB877601AF7FF1F00544D1A /* Exocet Blizzard OT Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CB8774A1AF7FF1F00544D1A /* Exocet Blizzard OT Medium.ttf */; };
+		8CB877611AF7FF1F00544D1A /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB8774D1AF7FF1F00544D1A /* UIColor+Hex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +47,60 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14B4AF0B659E6BFEF2DD478E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		16456BF5439D401854A7613A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB876F81AF7FC8B00544D1A /* Diablo Sprite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diablo Sprite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB876FC1AF7FC8B00544D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CB876FD1AF7FC8B00544D1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8CB876FF1AF7FC8B00544D1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8CB877001AF7FC8B00544D1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8CB877021AF7FC8B00544D1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8CB877031AF7FC8B00544D1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8CB877061AF7FC8B00544D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8CB877081AF7FC8B00544D1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8CB8770B1AF7FC8B00544D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8CB877111AF7FC8B00544D1A /* Diablo SpriteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Diablo SpriteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB877161AF7FC8B00544D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CB877171AF7FC8B00544D1A /* Diablo_SpriteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Diablo_SpriteTests.m; sourceTree = "<group>"; };
+		8CB877211AF7FDA900544D1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8CB877241AF7FF1F00544D1A /* DBCareerProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBCareerProfileViewController.h; sourceTree = "<group>"; };
+		8CB877251AF7FF1F00544D1A /* DBCareerProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBCareerProfileViewController.m; sourceTree = "<group>"; };
+		8CB877261AF7FF1F00544D1A /* DBHeroItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHeroItemViewController.h; sourceTree = "<group>"; };
+		8CB877271AF7FF1F00544D1A /* DBHeroItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHeroItemViewController.m; sourceTree = "<group>"; };
+		8CB877281AF7FF1F00544D1A /* DBHeroSkillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHeroSkillViewController.h; sourceTree = "<group>"; };
+		8CB877291AF7FF1F00544D1A /* DBHeroSkillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHeroSkillViewController.m; sourceTree = "<group>"; };
+		8CB8772A1AF7FF1F00544D1A /* DBHeroStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHeroStatsViewController.h; sourceTree = "<group>"; };
+		8CB8772B1AF7FF1F00544D1A /* DBHeroStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHeroStatsViewController.m; sourceTree = "<group>"; };
+		8CB8772C1AF7FF1F00544D1A /* DBLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBLoginViewController.h; sourceTree = "<group>"; };
+		8CB8772D1AF7FF1F00544D1A /* DBLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBLoginViewController.m; sourceTree = "<group>"; };
+		8CB8772E1AF7FF1F00544D1A /* DBTooltipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBTooltipViewController.h; sourceTree = "<group>"; };
+		8CB8772F1AF7FF1F00544D1A /* DBTooltipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBTooltipViewController.m; sourceTree = "<group>"; };
+		8CB877311AF7FF1F00544D1A /* AD3Artisan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AD3Artisan.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8CB877321AF7FF1F00544D1A /* AD3Artisan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AD3Artisan.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8CB877331AF7FF1F00544D1A /* AD3Career.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AD3Career.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8CB877341AF7FF1F00544D1A /* AD3Career.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AD3Career.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8CB877351AF7FF1F00544D1A /* AD3Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AD3Defines.h; sourceTree = "<group>"; };
+		8CB877361AF7FF1F00544D1A /* AD3Defines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AD3Defines.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8CB877371AF7FF1F00544D1A /* AD3Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AD3Hero.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8CB877381AF7FF1F00544D1A /* AD3Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AD3Hero.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8CB877391AF7FF1F00544D1A /* AD3Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AD3Item.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8CB8773A1AF7FF1F00544D1A /* AD3Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AD3Item.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8CB8773B1AF7FF1F00544D1A /* AD3Kills.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AD3Kills.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8CB8773C1AF7FF1F00544D1A /* AD3Kills.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AD3Kills.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8CB8773D1AF7FF1F00544D1A /* AD3Kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AD3Kit.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8CB8773E1AF7FF1F00544D1A /* AD3Progression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AD3Progression.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8CB8773F1AF7FF1F00544D1A /* AD3Progression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AD3Progression.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8CB877401AF7FF1F00544D1A /* AD3Rune.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AD3Rune.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8CB877411AF7FF1F00544D1A /* AD3Rune.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AD3Rune.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8CB877421AF7FF1F00544D1A /* AD3Skill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AD3Skill.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8CB877431AF7FF1F00544D1A /* AD3Skill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AD3Skill.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8CB877441AF7FF1F00544D1A /* AD3Stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AD3Stats.h; sourceTree = "<group>"; };
+		8CB877451AF7FF1F00544D1A /* AD3Stats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AD3Stats.m; sourceTree = "<group>"; };
+		8CB877461AF7FF1F00544D1A /* AD3TimePlayed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AD3TimePlayed.h; sourceTree = "<group>"; };
+		8CB877471AF7FF1F00544D1A /* AD3TimePlayed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AD3TimePlayed.m; sourceTree = "<group>"; };
+		8CB877491AF7FF1F00544D1A /* Exocet Blizzard OT Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exocet Blizzard OT Light.ttf"; sourceTree = "<group>"; };
+		8CB8774A1AF7FF1F00544D1A /* Exocet Blizzard OT Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exocet Blizzard OT Medium.ttf"; sourceTree = "<group>"; };
+		8CB8774C1AF7FF1F00544D1A /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		8CB8774D1AF7FF1F00544D1A /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		8CB877621AF7FFAE00544D1A /* DiabloSpritePrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiabloSpritePrefixHeader.pch; sourceTree = "<group>"; };
+		9187851B462DF52E69427F9F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				449043FC967A7D04F65C89F8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +128,8 @@
 				8CB876FA1AF7FC8B00544D1A /* Diablo Sprite */,
 				8CB877141AF7FC8B00544D1A /* Diablo SpriteTests */,
 				8CB876F91AF7FC8B00544D1A /* Products */,
+				C4B01BA66E75A25608E5DA6F /* Pods */,
+				FB0111121D09E43B73D38A12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +145,15 @@
 		8CB876FA1AF7FC8B00544D1A /* Diablo Sprite */ = {
 			isa = PBXGroup;
 			children = (
+				8CB877231AF7FF1F00544D1A /* Controllers */,
+				8CB877301AF7FF1F00544D1A /* Diablo 3 API */,
+				8CB877481AF7FF1F00544D1A /* Diablo 3 Fonts */,
+				8CB8774B1AF7FF1F00544D1A /* UIColor+Hex */,
 				8CB876FF1AF7FC8B00544D1A /* AppDelegate.h */,
 				8CB877001AF7FC8B00544D1A /* AppDelegate.m */,
-				8CB877021AF7FC8B00544D1A /* ViewController.h */,
-				8CB877031AF7FC8B00544D1A /* ViewController.m */,
 				8CB877051AF7FC8B00544D1A /* Main.storyboard */,
-				8CB877081AF7FC8B00544D1A /* Images.xcassets */,
 				8CB8770A1AF7FC8B00544D1A /* LaunchScreen.xib */,
+				8CB877211AF7FDA900544D1A /* Images.xcassets */,
 				8CB876FB1AF7FC8B00544D1A /* Supporting Files */,
 			);
 			path = "Diablo Sprite";
@@ -96,6 +162,7 @@
 		8CB876FB1AF7FC8B00544D1A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8CB877621AF7FFAE00544D1A /* DiabloSpritePrefixHeader.pch */,
 				8CB876FC1AF7FC8B00544D1A /* Info.plist */,
 				8CB876FD1AF7FC8B00544D1A /* main.m */,
 			);
@@ -119,6 +186,90 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8CB877231AF7FF1F00544D1A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8CB877241AF7FF1F00544D1A /* DBCareerProfileViewController.h */,
+				8CB877251AF7FF1F00544D1A /* DBCareerProfileViewController.m */,
+				8CB877261AF7FF1F00544D1A /* DBHeroItemViewController.h */,
+				8CB877271AF7FF1F00544D1A /* DBHeroItemViewController.m */,
+				8CB877281AF7FF1F00544D1A /* DBHeroSkillViewController.h */,
+				8CB877291AF7FF1F00544D1A /* DBHeroSkillViewController.m */,
+				8CB8772A1AF7FF1F00544D1A /* DBHeroStatsViewController.h */,
+				8CB8772B1AF7FF1F00544D1A /* DBHeroStatsViewController.m */,
+				8CB8772C1AF7FF1F00544D1A /* DBLoginViewController.h */,
+				8CB8772D1AF7FF1F00544D1A /* DBLoginViewController.m */,
+				8CB8772E1AF7FF1F00544D1A /* DBTooltipViewController.h */,
+				8CB8772F1AF7FF1F00544D1A /* DBTooltipViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8CB877301AF7FF1F00544D1A /* Diablo 3 API */ = {
+			isa = PBXGroup;
+			children = (
+				8CB877311AF7FF1F00544D1A /* AD3Artisan.h */,
+				8CB877321AF7FF1F00544D1A /* AD3Artisan.m */,
+				8CB877331AF7FF1F00544D1A /* AD3Career.h */,
+				8CB877341AF7FF1F00544D1A /* AD3Career.m */,
+				8CB877351AF7FF1F00544D1A /* AD3Defines.h */,
+				8CB877361AF7FF1F00544D1A /* AD3Defines.m */,
+				8CB877371AF7FF1F00544D1A /* AD3Hero.h */,
+				8CB877381AF7FF1F00544D1A /* AD3Hero.m */,
+				8CB877391AF7FF1F00544D1A /* AD3Item.h */,
+				8CB8773A1AF7FF1F00544D1A /* AD3Item.m */,
+				8CB8773B1AF7FF1F00544D1A /* AD3Kills.h */,
+				8CB8773C1AF7FF1F00544D1A /* AD3Kills.m */,
+				8CB8773D1AF7FF1F00544D1A /* AD3Kit.h */,
+				8CB8773E1AF7FF1F00544D1A /* AD3Progression.h */,
+				8CB8773F1AF7FF1F00544D1A /* AD3Progression.m */,
+				8CB877401AF7FF1F00544D1A /* AD3Rune.h */,
+				8CB877411AF7FF1F00544D1A /* AD3Rune.m */,
+				8CB877421AF7FF1F00544D1A /* AD3Skill.h */,
+				8CB877431AF7FF1F00544D1A /* AD3Skill.m */,
+				8CB877441AF7FF1F00544D1A /* AD3Stats.h */,
+				8CB877451AF7FF1F00544D1A /* AD3Stats.m */,
+				8CB877461AF7FF1F00544D1A /* AD3TimePlayed.h */,
+				8CB877471AF7FF1F00544D1A /* AD3TimePlayed.m */,
+			);
+			path = "Diablo 3 API";
+			sourceTree = "<group>";
+		};
+		8CB877481AF7FF1F00544D1A /* Diablo 3 Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8CB877491AF7FF1F00544D1A /* Exocet Blizzard OT Light.ttf */,
+				8CB8774A1AF7FF1F00544D1A /* Exocet Blizzard OT Medium.ttf */,
+			);
+			path = "Diablo 3 Fonts";
+			sourceTree = "<group>";
+		};
+		8CB8774B1AF7FF1F00544D1A /* UIColor+Hex */ = {
+			isa = PBXGroup;
+			children = (
+				8CB8774C1AF7FF1F00544D1A /* UIColor+Hex.h */,
+				8CB8774D1AF7FF1F00544D1A /* UIColor+Hex.m */,
+			);
+			path = "UIColor+Hex";
+			sourceTree = "<group>";
+		};
+		C4B01BA66E75A25608E5DA6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9187851B462DF52E69427F9F /* Pods.debug.xcconfig */,
+				14B4AF0B659E6BFEF2DD478E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB0111121D09E43B73D38A12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16456BF5439D401854A7613A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CB8771B1AF7FC8B00544D1A /* Build configuration list for PBXNativeTarget "Diablo Sprite" */;
 			buildPhases = (
+				5A870F1C480C14CA69BA4CFB /* Check Pods Manifest.lock */,
 				8CB876F41AF7FC8B00544D1A /* Sources */,
 				8CB876F51AF7FC8B00544D1A /* Frameworks */,
 				8CB876F61AF7FC8B00544D1A /* Resources */,
+				800AC635CF73F7F92FA4AF1F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +352,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CB877221AF7FDA900544D1A /* Images.xcassets in Resources */,
+				8CB8775F1AF7FF1F00544D1A /* Exocet Blizzard OT Light.ttf in Resources */,
+				8CB877601AF7FF1F00544D1A /* Exocet Blizzard OT Medium.ttf in Resources */,
 				8CB877071AF7FC8B00544D1A /* Main.storyboard in Resources */,
 				8CB8770C1AF7FC8B00544D1A /* LaunchScreen.xib in Resources */,
-				8CB877091AF7FC8B00544D1A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +369,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A870F1C480C14CA69BA4CFB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		800AC635CF73F7F92FA4AF1F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8CB876F41AF7FC8B00544D1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CB877041AF7FC8B00544D1A /* ViewController.m in Sources */,
+				8CB8775D1AF7FF1F00544D1A /* AD3Stats.m in Sources */,
+				8CB877611AF7FF1F00544D1A /* UIColor+Hex.m in Sources */,
+				8CB8775C1AF7FF1F00544D1A /* AD3Skill.m in Sources */,
+				8CB877541AF7FF1F00544D1A /* AD3Artisan.m in Sources */,
+				8CB877521AF7FF1F00544D1A /* DBLoginViewController.m in Sources */,
+				8CB877591AF7FF1F00544D1A /* AD3Kills.m in Sources */,
+				8CB8774E1AF7FF1F00544D1A /* DBCareerProfileViewController.m in Sources */,
 				8CB877011AF7FC8B00544D1A /* AppDelegate.m in Sources */,
+				8CB877551AF7FF1F00544D1A /* AD3Career.m in Sources */,
+				8CB8775B1AF7FF1F00544D1A /* AD3Rune.m in Sources */,
 				8CB876FE1AF7FC8B00544D1A /* main.m in Sources */,
+				8CB877531AF7FF1F00544D1A /* DBTooltipViewController.m in Sources */,
+				8CB8774F1AF7FF1F00544D1A /* DBHeroItemViewController.m in Sources */,
+				8CB8775A1AF7FF1F00544D1A /* AD3Progression.m in Sources */,
+				8CB877581AF7FF1F00544D1A /* AD3Item.m in Sources */,
+				8CB877511AF7FF1F00544D1A /* DBHeroStatsViewController.m in Sources */,
+				8CB877561AF7FF1F00544D1A /* AD3Defines.m in Sources */,
+				8CB877571AF7FF1F00544D1A /* AD3Hero.m in Sources */,
+				8CB8775E1AF7FF1F00544D1A /* AD3TimePlayed.m in Sources */,
+				8CB877501AF7FF1F00544D1A /* DBHeroSkillViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +550,12 @@
 		};
 		8CB8771C1AF7FC8B00544D1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9187851B462DF52E69427F9F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "${TARGET_NAME}/DiabloSpritePrefixHeader.pch";
 				INFOPLIST_FILE = "Diablo Sprite/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,9 +563,12 @@
 		};
 		8CB8771D1AF7FC8B00544D1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14B4AF0B659E6BFEF2DD478E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "${TARGET_NAME}/DiabloSpritePrefixHeader.pch";
 				INFOPLIST_FILE = "Diablo Sprite/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +627,7 @@
 				8CB8771D1AF7FC8B00544D1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CB8771E1AF7FC8B00544D1A /* Build configuration list for PBXNativeTarget "Diablo SpriteTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +636,7 @@
 				8CB877201AF7FC8B00544D1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

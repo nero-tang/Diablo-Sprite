@@ -1,0 +1,18 @@
+//
+//  DiabloSpritePrefixHeader.pch
+//  Diablo Sprite
+//
+//  Created by Yufei Tang on 2015-05-04.
+//  Copyright (c) 2015 Yufei Tang. All rights reserved.
+//
+
+#ifndef Diablo_Sprite_DiabloSpritePrefixHeader_pch
+#define Diablo_Sprite_DiabloSpritePrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "AD3Kit.h"
+#import "UIColor+Hex.h"
+
+#endif
