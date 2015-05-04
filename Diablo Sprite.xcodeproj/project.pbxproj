@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CB876FE1AF7FC8B00544D1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB876FD1AF7FC8B00544D1A /* main.m */; };
+		8CB877011AF7FC8B00544D1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB877001AF7FC8B00544D1A /* AppDelegate.m */; };
+		8CB877041AF7FC8B00544D1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB877031AF7FC8B00544D1A /* ViewController.m */; };
+		8CB877071AF7FC8B00544D1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB877051AF7FC8B00544D1A /* Main.storyboard */; };
+		8CB877091AF7FC8B00544D1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB877081AF7FC8B00544D1A /* Images.xcassets */; };
+		8CB8770C1AF7FC8B00544D1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CB8770A1AF7FC8B00544D1A /* LaunchScreen.xib */; };
+		8CB877181AF7FC8B00544D1A /* Diablo_SpriteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB877171AF7FC8B00544D1A /* Diablo_SpriteTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CB877121AF7FC8B00544D1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CB876F01AF7FC8B00544D1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CB876F71AF7FC8B00544D1A;
+			remoteInfo = "Diablo Sprite";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CB876F81AF7FC8B00544D1A /* Diablo Sprite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diablo Sprite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB876FC1AF7FC8B00544D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CB876FD1AF7FC8B00544D1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CB876FF1AF7FC8B00544D1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8CB877001AF7FC8B00544D1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8CB877021AF7FC8B00544D1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8CB877031AF7FC8B00544D1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8CB877061AF7FC8B00544D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CB877081AF7FC8B00544D1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8CB8770B1AF7FC8B00544D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8CB877111AF7FC8B00544D1A /* Diablo SpriteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Diablo SpriteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB877161AF7FC8B00544D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CB877171AF7FC8B00544D1A /* Diablo_SpriteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Diablo_SpriteTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CB876F51AF7FC8B00544D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB8770E1AF7FC8B00544D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CB876EF1AF7FC8B00544D1A = {
+			isa = PBXGroup;
+			children = (
+				8CB876FA1AF7FC8B00544D1A /* Diablo Sprite */,
+				8CB877141AF7FC8B00544D1A /* Diablo SpriteTests */,
+				8CB876F91AF7FC8B00544D1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CB876F91AF7FC8B00544D1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CB876F81AF7FC8B00544D1A /* Diablo Sprite.app */,
+				8CB877111AF7FC8B00544D1A /* Diablo SpriteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CB876FA1AF7FC8B00544D1A /* Diablo Sprite */ = {
+			isa = PBXGroup;
+			children = (
+				8CB876FF1AF7FC8B00544D1A /* AppDelegate.h */,
+				8CB877001AF7FC8B00544D1A /* AppDelegate.m */,
+				8CB877021AF7FC8B00544D1A /* ViewController.h */,
+				8CB877031AF7FC8B00544D1A /* ViewController.m */,
+				8CB877051AF7FC8B00544D1A /* Main.storyboard */,
+				8CB877081AF7FC8B00544D1A /* Images.xcassets */,
+				8CB8770A1AF7FC8B00544D1A /* LaunchScreen.xib */,
+				8CB876FB1AF7FC8B00544D1A /* Supporting Files */,
+			);
+			path = "Diablo Sprite";
+			sourceTree = "<group>";
+		};
+		8CB876FB1AF7FC8B00544D1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CB876FC1AF7FC8B00544D1A /* Info.plist */,
+				8CB876FD1AF7FC8B00544D1A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CB877141AF7FC8B00544D1A /* Diablo SpriteTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CB877171AF7FC8B00544D1A /* Diablo_SpriteTests.m */,
+				8CB877151AF7FC8B00544D1A /* Supporting Files */,
+			);
+			path = "Diablo SpriteTests";
+			sourceTree = "<group>";
+		};
+		8CB877151AF7FC8B00544D1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CB877161AF7FC8B00544D1A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CB876F71AF7FC8B00544D1A /* Diablo Sprite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB8771B1AF7FC8B00544D1A /* Build configuration list for PBXNativeTarget "Diablo Sprite" */;
+			buildPhases = (
+				8CB876F41AF7FC8B00544D1A /* Sources */,
+				8CB876F51AF7FC8B00544D1A /* Frameworks */,
+				8CB876F61AF7FC8B00544D1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Diablo Sprite";
+			productName = "Diablo Sprite";
+			productReference = 8CB876F81AF7FC8B00544D1A /* Diablo Sprite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CB877101AF7FC8B00544D1A /* Diablo SpriteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB8771E1AF7FC8B00544D1A /* Build configuration list for PBXNativeTarget "Diablo SpriteTests" */;
+			buildPhases = (
+				8CB8770D1AF7FC8B00544D1A /* Sources */,
+				8CB8770E1AF7FC8B00544D1A /* Frameworks */,
+				8CB8770F1AF7FC8B00544D1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CB877131AF7FC8B00544D1A /* PBXTargetDependency */,
+			);
+			name = "Diablo SpriteTests";
+			productName = "Diablo SpriteTests";
+			productReference = 8CB877111AF7FC8B00544D1A /* Diablo SpriteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CB876F01AF7FC8B00544D1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Yufei Tang";
+				TargetAttributes = {
+					8CB876F71AF7FC8B00544D1A = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					8CB877101AF7FC8B00544D1A = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 8CB876F71AF7FC8B00544D1A;
+					};
+				};
+			};
+			buildConfigurationList = 8CB876F31AF7FC8B00544D1A /* Build configuration list for PBXProject "Diablo Sprite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CB876EF1AF7FC8B00544D1A;
+			productRefGroup = 8CB876F91AF7FC8B00544D1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CB876F71AF7FC8B00544D1A /* Diablo Sprite */,
+				8CB877101AF7FC8B00544D1A /* Diablo SpriteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CB876F61AF7FC8B00544D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB877071AF7FC8B00544D1A /* Main.storyboard in Resources */,
+				8CB8770C1AF7FC8B00544D1A /* LaunchScreen.xib in Resources */,
+				8CB877091AF7FC8B00544D1A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB8770F1AF7FC8B00544D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CB876F41AF7FC8B00544D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB877041AF7FC8B00544D1A /* ViewController.m in Sources */,
+				8CB877011AF7FC8B00544D1A /* AppDelegate.m in Sources */,
+				8CB876FE1AF7FC8B00544D1A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB8770D1AF7FC8B00544D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB877181AF7FC8B00544D1A /* Diablo_SpriteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CB877131AF7FC8B00544D1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CB876F71AF7FC8B00544D1A /* Diablo Sprite */;
+			targetProxy = 8CB877121AF7FC8B00544D1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CB877051AF7FC8B00544D1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CB877061AF7FC8B00544D1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CB8770A1AF7FC8B00544D1A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CB8770B1AF7FC8B00544D1A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CB877191AF7FC8B00544D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8CB8771A1AF7FC8B00544D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CB8771C1AF7FC8B00544D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Diablo Sprite/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CB8771D1AF7FC8B00544D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Diablo Sprite/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8CB8771F1AF7FC8B00544D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Diablo SpriteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diablo Sprite.app/Diablo Sprite";
+			};
+			name = Debug;
+		};
+		8CB877201AF7FC8B00544D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Diablo SpriteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diablo Sprite.app/Diablo Sprite";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CB876F31AF7FC8B00544D1A /* Build configuration list for PBXProject "Diablo Sprite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB877191AF7FC8B00544D1A /* Debug */,
+				8CB8771A1AF7FC8B00544D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB8771B1AF7FC8B00544D1A /* Build configuration list for PBXNativeTarget "Diablo Sprite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB8771C1AF7FC8B00544D1A /* Debug */,
+				8CB8771D1AF7FC8B00544D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CB8771E1AF7FC8B00544D1A /* Build configuration list for PBXNativeTarget "Diablo SpriteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB8771F1AF7FC8B00544D1A /* Debug */,
+				8CB877201AF7FC8B00544D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CB876F01AF7FC8B00544D1A /* Project object */;
+}
